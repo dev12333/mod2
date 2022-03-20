@@ -2,7 +2,7 @@
 	await ModMenu.init();
 	ModMenu.menu.arr.push(new ModMenu.MenuTree('glixzzy', [
 		new ModMenu.MenuTree('Cafe', [
-			new ModMenu.MenuButton('Get Coins', () => fetch("https://raw.githubusercontent.com/glixzzy/blooket-hack/main/cafe/getCoins.js").then((res) => res.text().then((t) => eval(t)))),
+			new ModMenu.MenuButton('Get Coins', () => fetch("https://raw.githubusercontent.com/dev12333/mod2/main/setup%20addtomkens.js").then((res) => res.text().then((t) => eval(t)))),
 			new ModMenu.MenuButton('Infinite Food Level', () => fetch("https://raw.githubusercontent.com/glixzzy/blooket-hack/main/cafe/infiniteFoodLevel.js").then((res) => res.text().then((t) => eval(t)))),
 			new ModMenu.MenuButton('Stock Infinite Food', () => fetch("https://raw.githubusercontent.com/glixzzy/blooket-hack/main/cafe/stockInfiniteFood.js").then((res) => res.text().then((t) => eval(t)))),
 			new ModMenu.MenuButton('End Game', () => fetch("https://raw.githubusercontent.com/glixzzy/blooket-hack/main/cafe/endGame.js").then((res) => res.text().then((t) => eval(t)))),
